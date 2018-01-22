@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051273626BC94A5D8F5F5A88 /* libPods-Register.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD5E426FF250D5E9FFAC0EE /* libPods-Register.a */; };
+		273252E220118812001BF4ED /* DecryptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273252E120118812001BF4ED /* DecryptionViewController.m */; };
+		273252E520119F35001BF4ED /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273252E420119F35001BF4ED /* MyInfoViewController.m */; };
+		273252EA2011D1AB001BF4ED /* FirstEnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273252E92011D1AB001BF4ED /* FirstEnViewController.m */; };
+		273252ED2011D726001BF4ED /* EncryptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273252EC2011D726001BF4ED /* EncryptionViewController.m */; };
+		2734D662200EDC2500161B1B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734D661200EDC2500161B1B /* libz.tbd */; };
+		2734D664200EDC3400161B1B /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734D663200EDC3400161B1B /* libicucore.tbd */; };
+		2734D666200EDC4600161B1B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734D665200EDC4600161B1B /* MessageUI.framework */; };
+		2734D668200EDC6100161B1B /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734D667200EDC6100161B1B /* JavaScriptCore.framework */; };
+		2734D66A200EDC7100161B1B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734D669200EDC7100161B1B /* libstdc++.tbd */; };
 		27FE54EC20084C7600DD01A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE54EB20084C7600DD01A8 /* AppDelegate.m */; };
 		27FE54EF20084C7600DD01A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE54EE20084C7600DD01A8 /* ViewController.m */; };
 		27FE54F220084C7600DD01A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FE54F020084C7600DD01A8 /* Main.storyboard */; };
@@ -15,6 +25,8 @@
 		27FE54FA20084C7600DD01A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE54F920084C7600DD01A8 /* main.m */; };
 		27FE550420084C7600DD01A8 /* RegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE550320084C7600DD01A8 /* RegisterTests.m */; };
 		27FE550F20084C7600DD01A8 /* RegisterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE550E20084C7600DD01A8 /* RegisterUITests.m */; };
+		27FE5526200C4B6A00DD01A8 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE5525200C4B6A00DD01A8 /* RegisterViewController.m */; };
+		27FE556A200D90A200DD01A8 /* HomeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE5569200D90A200DD01A8 /* HomeTabViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +47,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		273252E020118812001BF4ED /* DecryptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecryptionViewController.h; sourceTree = "<group>"; };
+		273252E120118812001BF4ED /* DecryptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecryptionViewController.m; sourceTree = "<group>"; };
+		273252E320119F35001BF4ED /* MyInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		273252E420119F35001BF4ED /* MyInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		273252E82011D1AB001BF4ED /* FirstEnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstEnViewController.h; sourceTree = "<group>"; };
+		273252E92011D1AB001BF4ED /* FirstEnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstEnViewController.m; sourceTree = "<group>"; };
+		273252EB2011D726001BF4ED /* EncryptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptionViewController.h; sourceTree = "<group>"; };
+		273252EC2011D726001BF4ED /* EncryptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptionViewController.m; sourceTree = "<group>"; };
+		2734D661200EDC2500161B1B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2734D663200EDC3400161B1B /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		2734D665200EDC4600161B1B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2734D667200EDC6100161B1B /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		2734D669200EDC7100161B1B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		27FE54E720084C7600DD01A8 /* Register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Register.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FE54EA20084C7600DD01A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27FE54EB20084C7600DD01A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		27FE54ED20084C7600DD01A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27FE54EE20084C7600DD01A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27FE54EE20084C7600DD01A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; tabWidth = 5; };
 		27FE54F120084C7600DD01A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27FE54F320084C7600DD01A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27FE54F620084C7600DD01A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +76,13 @@
 		27FE550A20084C7600DD01A8 /* RegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FE550E20084C7600DD01A8 /* RegisterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterUITests.m; sourceTree = "<group>"; };
 		27FE551020084C7600DD01A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FE5524200C4B6A00DD01A8 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		27FE5525200C4B6A00DD01A8 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		27FE5568200D90A200DD01A8 /* HomeTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTabViewController.h; sourceTree = "<group>"; };
+		27FE5569200D90A200DD01A8 /* HomeTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTabViewController.m; sourceTree = "<group>"; };
+		2AD5E426FF250D5E9FFAC0EE /* libPods-Register.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Register.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51518662DE464C49CAC22F0B /* Pods-Register.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Register.release.xcconfig"; path = "Pods/Target Support Files/Pods-Register/Pods-Register.release.xcconfig"; sourceTree = "<group>"; };
+		E55EDC24B33FFD5D39318D1F /* Pods-Register.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Register.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Register/Pods-Register.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2734D66A200EDC7100161B1B /* libstdc++.tbd in Frameworks */,
+				2734D668200EDC6100161B1B /* JavaScriptCore.framework in Frameworks */,
+				2734D666200EDC4600161B1B /* MessageUI.framework in Frameworks */,
+				2734D664200EDC3400161B1B /* libicucore.tbd in Frameworks */,
+				2734D662200EDC2500161B1B /* libz.tbd in Frameworks */,
+				051273626BC94A5D8F5F5A88 /* libPods-Register.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +116,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273252E62011D134001BF4ED /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				273252E82011D1AB001BF4ED /* FirstEnViewController.h */,
+				273252E92011D1AB001BF4ED /* FirstEnViewController.m */,
+				273252EB2011D726001BF4ED /* EncryptionViewController.h */,
+				273252EC2011D726001BF4ED /* EncryptionViewController.m */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		273252E72011D154001BF4ED /* Decryption */ = {
+			isa = PBXGroup;
+			children = (
+				273252E020118812001BF4ED /* DecryptionViewController.h */,
+				273252E120118812001BF4ED /* DecryptionViewController.m */,
+			);
+			path = Decryption;
+			sourceTree = "<group>";
+		};
 		27FE54DE20084C7600DD01A8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				27FE550220084C7600DD01A8 /* RegisterTests */,
 				27FE550D20084C7600DD01A8 /* RegisterUITests */,
 				27FE54E820084C7600DD01A8 /* Products */,
+				39AB26A941DC670A563FC2EB /* Pods */,
+				8ECF1DCF8AA8B6E95324CEE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +161,8 @@
 		27FE54E920084C7600DD01A8 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				273252E72011D154001BF4ED /* Decryption */,
+				273252E62011D134001BF4ED /* Encryption */,
 				27FE54EA20084C7600DD01A8 /* AppDelegate.h */,
 				27FE54EB20084C7600DD01A8 /* AppDelegate.m */,
 				27FE54ED20084C7600DD01A8 /* ViewController.h */,
@@ -110,6 +172,12 @@
 				27FE54F520084C7600DD01A8 /* LaunchScreen.storyboard */,
 				27FE54F820084C7600DD01A8 /* Info.plist */,
 				27FE54F920084C7600DD01A8 /* main.m */,
+				27FE5524200C4B6A00DD01A8 /* RegisterViewController.h */,
+				27FE5525200C4B6A00DD01A8 /* RegisterViewController.m */,
+				27FE5568200D90A200DD01A8 /* HomeTabViewController.h */,
+				27FE5569200D90A200DD01A8 /* HomeTabViewController.m */,
+				273252E320119F35001BF4ED /* MyInfoViewController.h */,
+				273252E420119F35001BF4ED /* MyInfoViewController.m */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -132,6 +200,28 @@
 			path = RegisterUITests;
 			sourceTree = "<group>";
 		};
+		39AB26A941DC670A563FC2EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E55EDC24B33FFD5D39318D1F /* Pods-Register.debug.xcconfig */,
+				51518662DE464C49CAC22F0B /* Pods-Register.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8ECF1DCF8AA8B6E95324CEE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2734D669200EDC7100161B1B /* libstdc++.tbd */,
+				2734D667200EDC6100161B1B /* JavaScriptCore.framework */,
+				2734D665200EDC4600161B1B /* MessageUI.framework */,
+				2734D663200EDC3400161B1B /* libicucore.tbd */,
+				2734D661200EDC2500161B1B /* libz.tbd */,
+				2AD5E426FF250D5E9FFAC0EE /* libPods-Register.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27FE551320084C7600DD01A8 /* Build configuration list for PBXNativeTarget "Register" */;
 			buildPhases = (
+				22053D82CADA3026810243DD /* [CP] Check Pods Manifest.lock */,
 				27FE54E320084C7600DD01A8 /* Sources */,
 				27FE54E420084C7600DD01A8 /* Frameworks */,
 				27FE54E520084C7600DD01A8 /* Resources */,
+				894802CBE129EB613C0E40E8 /* [CP] Embed Pods Frameworks */,
+				9A4A1583AEE41B0C68C18279 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +287,9 @@
 		27FE54DF20084C7600DD01A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "宁莉莎";
 				TargetAttributes = {
@@ -260,14 +356,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22053D82CADA3026810243DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Register-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894802CBE129EB613C0E40E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Register/Pods-Register-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4A1583AEE41B0C68C18279 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Register/Pods-Register-resources.sh",
+				"${PODS_ROOT}/SMS_SDK/SMS_SDK/en.lproj",
+				"${PODS_ROOT}/SMS_SDK/SMS_SDK/zh-Hans.lproj",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Register/Pods-Register-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27FE54E320084C7600DD01A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273252EA2011D1AB001BF4ED /* FirstEnViewController.m in Sources */,
+				27FE5526200C4B6A00DD01A8 /* RegisterViewController.m in Sources */,
+				273252E520119F35001BF4ED /* MyInfoViewController.m in Sources */,
 				27FE54EF20084C7600DD01A8 /* ViewController.m in Sources */,
 				27FE54FA20084C7600DD01A8 /* main.m in Sources */,
+				273252E220118812001BF4ED /* DecryptionViewController.m in Sources */,
 				27FE54EC20084C7600DD01A8 /* AppDelegate.m in Sources */,
+				273252ED2011D726001BF4ED /* EncryptionViewController.m in Sources */,
+				27FE556A200D90A200DD01A8 /* HomeTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +586,15 @@
 		};
 		27FE551420084C7600DD01A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55EDC24B33FFD5D39318D1F /* Pods-Register.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F552VWYBE;
 				INFOPLIST_FILE = Register/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Lisa.Register;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,11 +603,15 @@
 		};
 		27FE551520084C7600DD01A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51518662DE464C49CAC22F0B /* Pods-Register.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F552VWYBE;
 				INFOPLIST_FILE = Register/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Lisa.Register;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
